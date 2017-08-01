@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<!-- Lets Media Queries Work   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/0d9541cd71.js"></script>
+      
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do" rel="stylesheet">
+<!--Bootstrap CSS    -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS   -->
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+    <div class="container">
+        <div class='row'>
+            <div class="col-md-6">
+                <h1>Todo list</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form class="form-inline">
+                    <input type="text" class="form-control" id="enterTask" placeholder="Enter task">
+                    <button type="button" onclick="todo()" class='btn btn-default'>Submit</button>
+                </form>
+                <ol id="listTodo">
+                </ol>
+            </div>
+        </div>
+    </div>
+  
+    
+
+    
+<!-- jQUERY (Gas for the Bootstrap JS car)   -->
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="js/bootstrap.min.js"></script>
+<!--CUSTOM JAVASCRIPT-->
+    <script src="js/main.js"></script>
+</body>
+</html>
