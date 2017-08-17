@@ -44,6 +44,153 @@ ol#listTodo {
 
 }
 
+@media(max-width: 1200px) {
+	input#enterTask.form-control {
+		width: 300px;
+	}
+
+}
+
+
+@media(max-width: 1036px) {
+	li.list-item {
+		width: 300px;
+	}
+
+	ol#listTodo {
+		width: 400px;
+	}
+}
+
+
+
+@media(max-width: 994px) {
+	form.form-inline {
+		text-align: center;
+	}
+
+	ol#listTodo {
+		width: 400px;
+		margin-left: 160px;
+	}
+}
+
+@media(max-width: 990px) {
+	form.form-inline {
+		text-align: center;
+	}
+
+	ol#listTodo {
+		width: 400px;
+		margin-left: 160px;
+	}
+}
+
+@media(max-width: 768px) {
+
+	form.form-inline {
+		padding-left: 80px;
+	}
+
+	input#enterTask.form-control {
+		width: 300px;
+	}
+
+	ol#listTodo {
+		width: 400px;
+		margin-left: 215px;
+	}
+
+}
+
+@media(max-width: 766px) {
+
+	form.form-inline {
+		padding-left: 50px;
+	}
+
+	input#enterTask.form-control {
+		width: 300px;
+		display: inline-block;
+	}
+
+	ol#listTodo {
+		width: 400px;
+		margin-left: 200px;
+	}
+
+	button.btn.btn-default {
+		margin-top: 30px;
+	}
+	
+
+}
+
+
+@media(max-width: 648px) {
+	ol#listTodo {
+		width: 400px;
+		margin-left: 150px;
+	}
+}
+
+@media(max-width: 600px) {
+	ol#listTodo {
+		width: 500px;
+		margin-left: 120px;
+	}
+}
+
+@media(max-width: 512px) {
+	ol#listTodo {
+		width: 500px;
+		margin-left: 100px;
+	}
+}
+
+@media(max-width: 512px) {
+	ol#listTodo {
+		width: 500px;
+		margin-left: 100px;
+	}
+}
+
+@media(max-width: 456px) {
+	ol#listTodo {
+		width: 500px;
+		margin-left: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

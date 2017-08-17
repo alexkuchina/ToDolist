@@ -4,7 +4,7 @@ function todo() {
 	//variable stores info thar user inputs
 	var input = document.getElementById('enterTask').value
 
-	//variale that takes info that user input and stores it in a textNode
+	//variale that takes info that user inputs and stores it in a textNode
 	var newTask = document.createTextNode(input);
 	var deleteIcon = document.createElement('i');
 	deleteIcon.setAttribute('class', 'fa fa-trash-o');
